@@ -5,4 +5,4 @@ while n > 0:
     count += 1
     n = n // 10
 
-print("No. of digits in the number is:", count)
+print("No. of digits in the number are:", count)
