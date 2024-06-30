@@ -4,4 +4,4 @@ def harmonic(n):
     return 1/n + harmonic(n-1)
 
 a = int(input("Enter a number: "))
-print(harmonic(a))
+print("The harmonic sum is", round(harmonic(a), 2))
